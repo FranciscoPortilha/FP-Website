@@ -70,7 +70,8 @@
 }
 
 
-input[type=text] {
+input[type=text],
+input[type=email] {
     max-width: 100%;
     font-size:min(20px,10vw);         
     border-radius: min(0.6vh,0.6vw);   

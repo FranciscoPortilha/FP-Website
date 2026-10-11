@@ -30,17 +30,17 @@
 
         <div class="contact-left">
           <div class="contact-text">
-            <form>
+            <form action="https://formspree.io/f/mbgdkkpb" method="POST">
               <label for="name">Name:</label><br>
-              <input type="text" id="name" name="name"><br>
+              <input type="text" id="name" name="name" required><br>
 
               <label for="email">Email:</label><br>
-              <input type="text" id="email" name="email"><br>
+              <input type="email" id="email" name="email" required><br>
 
               <label for="message">Message:</label><br>
-              <textarea class="message" placeholder="Message..."></textarea>
+              <textarea class="message" id="message" name="message" placeholder="Message..." required></textarea><br>
+              <button type="submit" id="contact-button">Send</button>
             </form>
-            <button id="contact-button">Send</button>
           </div>
         </div>
 
@@ -54,7 +54,7 @@
               <a href = "https://github.com/FranciscoPortilha">GitHub</a>
             </li>
             <li>
-              <a href = "mailto: portlihafr@gmail.com">Email</a>
+              <a href = "mailto:portilhafr@gmail.com">Email</a>
             </li>
           </div>
         </div> 
