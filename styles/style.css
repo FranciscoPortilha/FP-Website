@@ -57,7 +57,8 @@ nav {
 
 /* Style the "Menu" button */
 #menu-button {
-    position: absolute;
+    position: fixed;
+    z-index: 2;
     top:4vh;
     right: 10vw;
     background-color: transparent;
